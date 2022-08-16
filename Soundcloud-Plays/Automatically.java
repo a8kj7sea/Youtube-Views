@@ -59,10 +59,8 @@ public class Automatically { //Start
 			Runtime.getRuntime().exec("Taskkill   /f   /im msedge.exe");
 			Thread(3);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (URISyntaxException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
