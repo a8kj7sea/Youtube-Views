@@ -22,7 +22,7 @@ public class WithTimer { //Start
 			public void run() {
 				RunWithTimer();
 			}
-		 }, 0, (123*4)+1000);
+		 }, 0, (123*4)*1000);
 	}
 	
 	
