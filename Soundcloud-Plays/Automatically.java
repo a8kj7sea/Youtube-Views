@@ -40,13 +40,24 @@ public class Automatically { //Start
 	public static void RunWithTimer() {
 		try {
 			Start();
-			Thread(123);
+			Thread(120);
+			Runtime.getRuntime().exec("Taskkill   /f   /im msedge.exe");
+			Thread(3);
+
 			Start();
-			Thread(123);
+			Thread(120);
+			Runtime.getRuntime().exec("Taskkill   /f   /im msedge.exe");
+			Thread(3);
+
 			Start();
-			Thread(123);
+			Thread(120);
+			Runtime.getRuntime().exec("Taskkill   /f   /im msedge.exe");
+			Thread(3);
+
 			Start();
-			Thread(123);
+			Thread(120);
+			Runtime.getRuntime().exec("Taskkill   /f   /im msedge.exe");
+			Thread(3);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
