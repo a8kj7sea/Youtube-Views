@@ -14,13 +14,24 @@ public class Manually { //Start
 	
 	public static void main(String[] args) throws IOException, URISyntaxException {
 		Start();
-		Thread(123);
+		Thread(120);
+		Runtime.getRuntime().exec("Taskkill   /f   /im msedge.exe");
+		Thread(3);
+
 		Start();
-		Thread(123);
+		Thread(120);
+		Runtime.getRuntime().exec("Taskkill   /f   /im msedge.exe");
+		Thread(3);
+
 		Start();
-		Thread(123);
+		Thread(120);
+		Runtime.getRuntime().exec("Taskkill   /f   /im msedge.exe");
+		Thread(3);
+	
 		Start();
-		Thread(123);
+		Thread(120);
+		Runtime.getRuntime().exec("Taskkill   /f   /im msedge.exe");
+		Thread(3);
 	}
 	
 	
